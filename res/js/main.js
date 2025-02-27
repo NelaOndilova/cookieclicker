@@ -28,17 +28,6 @@ secondBox.onclick = () => {
     secondBox.innerHTML++; //++ inkrement - zveda o 1
 }
 
-let thirdBox = document.getElementById("box3")
-let leftPos = 0;
-let topPos = 0;
-thirdBox.onclick = () => {
-    leftPos++;
-    //topPos = topPos + 2;
-    topPos += 2;
-    thirdBox.style.left = leftPos + "6px";
-    thirdBox.style.top = topPos + "6px";
-}
-
 let clickUpgradeBtn = document.getElementById("clickUpgrade");
 let clickUpgradeCost = 10;
 
